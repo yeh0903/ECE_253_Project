@@ -1,6 +1,6 @@
 # ECE_253_Project - ML-Models
 
-1. Zero-DCE
+A. Zero-DCE
     How to implement:
     1. clone the repo
     2. create conda env by: conda create --name zerodce_env opencv python=3.7 -c pytorch
