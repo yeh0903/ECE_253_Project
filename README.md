@@ -8,4 +8,4 @@ graph_result.ipynb is for graphing all the test results and the loss curve of th
 
 compress.py makes the raw images we collected compressed
 
-ML_restore.py is for restoring the compressed images by using the FBCNN
+ML_restore.py is for restoring the compressed images by using the FBCNN, which can be found on https://github.com/jiaxi-jiang/FBCNN.git. The .pt file can be found on https://github.com/jiaxi-jiang/FBCNN/releases/tag/v1.0
