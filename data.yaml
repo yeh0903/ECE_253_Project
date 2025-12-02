@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['cell phone']
+
+roboflow:
+  workspace: cell-phone-v3g3u
+  project: cell-phone-z59qs
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cell-phone-v3g3u/cell-phone-z59qs/dataset/1
