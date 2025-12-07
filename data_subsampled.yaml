@@ -1,0 +1,12 @@
+train: E:\2025 fall\Fundamentals of Digital Image Processing\train_small\images
+val: ../valid/images
+test: E:\2025 fall\Fundamentals of Digital Image Processing\Low Resolution_fine tune_traditional\images # change the path according to the need
+nc: 1
+names:
+- cell phone
+roboflow:
+  workspace: cell-phone-v3g3u
+  project: cell-phone-z59qs
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cell-phone-v3g3u/cell-phone-z59qs/dataset/1

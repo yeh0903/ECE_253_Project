@@ -1,0 +1,9 @@
+path: E:\2025 fall\Fundamentals of Digital Image Processing\Motion Blur_fine tune # Root directory of this finetune dataset
+
+# Relative paths from "path"
+train: images/train
+val:   images/train    # reuse train as "val" just for YOLO's training pipeline
+test:  images/test
+
+names:
+  0: phone
