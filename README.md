@@ -34,8 +34,9 @@ Files / Folders related:
 model files of YOLOv11
 - `YOLOv8`:
 model files of YOLOv8
-- `data_finetune.yaml`
-- `data_subssample.yaml`
-- `data.yaml`
+- Config Files
+    - `data_finetune.yaml`
+    - `data_subssample.yaml`
+    - `data.yaml`
 - `result_graph.ipynb`:
 graphing all the test results and the loss curve of the fine tuning models
