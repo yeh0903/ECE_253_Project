@@ -7,7 +7,7 @@
 ### **Dataset D** can be found on RoboFlow: 
 [Clean Data](https://universe.roboflow.com/cell-phone-v3g3u/cell-phone-z59qs/dataset/1)
 
-### **Dataset D'** is on:
+### **Dataset D' and Results** are on:
 [Self-Collected Data](https://drive.google.com/drive/folders/14v7EyqaY3exsCvuAU_TFCJRZCdkb4RLV?usp=drive_link)
 
 Note: *Please modify the code according to the local path where you download the data.*
@@ -29,7 +29,13 @@ located in `ECE_253_project/enhance_ml`
 
 
 ## 4. Object Detection Models (YOLOv8 / YOLOv11)
-
-graph_result.ipynb is for graphing all the test results and the loss curve of the fine tuning models
-
-compress.py makes the raw images we collected compressed
+Files / Folders related:
+- `YOLO11`:
+model files of YOLOv11
+- `YOLOv8`:
+model files of YOLOv8
+- `data_finetune.yaml`
+- `data_subssample.yaml`
+- `data.yaml`
+- `result_graph.ipynb`:
+graphing all the test results and the loss curve of the fine tuning models
